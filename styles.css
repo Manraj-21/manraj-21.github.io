@@ -16,3 +16,47 @@ body {
       color: white;
       text-decoration: none;
     }
+    .home-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      padding: 4rem 2rem;
+    }
+    .home-text {
+      flex: 1;
+      min-width: 300px;
+      text-align: center;
+    }
+    .home-text h1 span {
+      background: linear-gradient(to right, orange, purple);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 150%; 
+    }
+    .home-text .buttons a {
+      margin: 0 1rem 1rem 0;
+      padding: 0.75rem 2rem;
+      border-radius: 8px;
+      text-decoration: none;
+      display: inline-block;
+    }
+    .home-text .github {
+      background-color: white;
+      color: black;
+    }
+    .home-text .linkedin {
+      border: 2px solid white;
+      color: white;
+    }
+    .home-photo {
+      flex: 1;
+      min-width: 200px;
+      text-align: center;
+      padding: 1rem;
+    }
+    .home-photo img {
+      width: 350px;
+      height: auto;
+      border-radius: 50%;
+    }
