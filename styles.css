@@ -60,6 +60,32 @@ body {
       height: auto;
       border-radius: 50%;
     }
+     .sections {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 4rem 5rem;
+    }
+    .section {
+      width: 40%;
+      min-width: 300px;
+      margin: 1rem;
+    }
+    .section h2 {
+      margin-top: 0rem;
+    }
+    #corgi {
+      margin-top: 9rem;
+    }
+    .section img {
+      width: 85%;
+      height: auto;
+      background: #ccc;
+      padding: 1rem;
+      color: black;
+      font-weight: bold;
+      text-align: center;
+    }
     .large {
       font-size: larger;
     }
