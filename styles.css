@@ -8,7 +8,7 @@ body {
       background: #1a1a1a;
       display: flex;
       justify-content: space-between;
-      padding: 1rem 2rem;
+      padding: 1rem 10rem;
       align-items: center;
     }
     header nav a {
@@ -59,4 +59,11 @@ body {
       width: 350px;
       height: auto;
       border-radius: 50%;
+    }
+    .large {
+      font-size: larger;
+    }
+    a {
+      text-decoration: none;
+      color: white;
     }
