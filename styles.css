@@ -134,6 +134,10 @@ body {
     }
     .large {
       font-size: larger;
+      text-align: center;
+      margin-bottom: 10px;
+      margin-top: 10px;
+      margin-left: 75px;
     }
     a {
       text-decoration: none;
