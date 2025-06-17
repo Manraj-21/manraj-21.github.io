@@ -114,6 +114,24 @@ body {
     html {
       scroll-behavior: smooth;
     }
+    footer {
+      background: #1a1a1a;
+      color: #aaa;
+      padding: 2rem;
+      text-align: center;
+    }
+    .contact-icons {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      margin: 1rem 0;
+    }
+    .contact-icons div {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
     .large {
       font-size: larger;
     }
